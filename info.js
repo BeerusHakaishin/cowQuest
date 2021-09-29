@@ -3,4 +3,7 @@ const user = {
         campus:"Lyon"
 };
            
-module.exports = {user};
+module.exports = {
+    name: user.name,
+    campus: user.campus,
+}
